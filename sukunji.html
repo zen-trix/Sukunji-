@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sukunji - God of This World</title>
+    <style>
+        body {
+            background: black;
+            color: crimson;
+            font-family: 'Georgia', serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 5rem;
+            margin-top: 20%;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            animation: glitch 1.5s infinite;
+        }
+        p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        @keyframes glitch {
+            0% { text-shadow: 2px 2px crimson; }
+            50% { text-shadow: -2px -2px darkred; }
+            100% { text-shadow: 2px -2px crimson; }
+        }
+        .seal {
+            margin-top: 50px;
+            font-size: 1.2rem;
+            border: 2px solid crimson;
+            display: inline-block;
+            padding: 10px 20px;
+            background: rgba(255, 0, 0, 0.1);
+            animation: flicker 2s infinite;
+        }
+        @keyframes flicker {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.6; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Sukunji</h1>
+    <p>The Cursed God of This World</p>
+    <div class="seal">Fear His Power</div>
+</body>
+</html>
